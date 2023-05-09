@@ -1,0 +1,66 @@
+.card-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    padding:10px 10px;
+}
+
+.avatar-container {
+    margin-right: 10px;
+}
+
+.avatar {
+    display: block;
+    height: 70px;
+    width: 70px;
+    border-radius: 29px;
+    border: 1px solid #E8E9EB;
+    margin-left: 15px;
+    border: none;
+}
+
+.description-container {
+    flex: 1;
+}
+
+.name {
+    margin: 0;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #343538;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.description {
+    margin: 10px 0;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #343538;
+    margin-top: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.button:hover {
+    background-color: #0062cc;
+}
+

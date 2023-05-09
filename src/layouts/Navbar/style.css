@@ -1,0 +1,30 @@
+.form-inputs{
+    position:relative;
+    display: flex;
+    width: fit-content;
+    background-color: white;
+    border-radius: 12px;
+  }
+  .form-inputs .form-control{
+    border: none;
+    width:800px;
+    border-radius: 12px;
+   
+  }
+  
+  .form-inputs .form-control:focus{
+    box-shadow:none;
+  }
+  
+  .form-inputs i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    height: 50px;
+    width: 50px;
+  }
+  .logo {
+    width: 200px;
+    height: 60px;
+  }

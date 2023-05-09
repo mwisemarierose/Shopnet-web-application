@@ -1,0 +1,21 @@
+.card {
+    position: relative;
+    display: flex;
+    background-color: #EEEEEE;
+    width: 200px;
+    border: none;
+  
+  }
+  .cards-img-top {
+    margin-top: 5px;
+    width: 60%;
+    height: 60%;
+    /* border-radius: 12px; */
+    transition: 0.8s all ease-in-out;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.3);
+  }
+  
+  
